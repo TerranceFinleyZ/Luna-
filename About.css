@@ -1,0 +1,46 @@
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0rem;
+    padding-top: 400px;
+    margin-left: 200px;
+}
+
+video {
+    border-radius: 43px;
+    background-color: #f0f;
+    box-shadow: 0 0px #f0f, 0 0 100px #f0f;
+    display: unset;
+    
+}
+
+h3 {
+    margin-left: 102px;
+    color: aliceblue;
+    font-size: larger;
+}
+
+.about-content h3 {
+    text-align: left;
+    line-height: 2.4;
+}
+
+
+
+@media (max-width: 768px) {
+    .about {
+        display: unset;
+    }
+
+    h3 {
+        margin-left: 15px;
+        padding-top: 100px;
+    }
+    
+    video {
+        border-radius: unset;
+        display: unset;
+    }
+}

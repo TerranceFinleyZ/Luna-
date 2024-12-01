@@ -1,0 +1,23 @@
+.maga {
+    padding-top: 500px;
+}
+
+.mach {
+    padding-top: 200px;
+    margin-left: 410px;
+}
+
+
+@media(max-width: 760px) {
+    .maga {
+        padding-top: 300px;
+    }
+    .mach video {
+        width: 510px;
+    }
+    .mach {
+        padding-top: 100px;
+        margin-left: 0px;
+    }
+    
+}

@@ -1,0 +1,29 @@
+.ddf {
+    padding-top: 500px;
+    margin-left: 730px;
+}
+
+.moon {
+    padding-top: 100px;
+    width: 900px;
+    margin-left: 490px;
+}
+
+h5 {
+    color: aliceblue;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+@media(max-width: 760px) {
+
+    .ddf {
+        padding-top: 200px;
+        margin-left: 75px;
+    }
+    .moon {
+        padding-top: 100px;
+        width: unset;
+        margin-left: unset;
+    }
+}
